@@ -1,5 +1,5 @@
-public class Permutations {
-
+public class Main {
+// Complexity: linear - O(n)
     public static void generatePermutations(String str, String chosen) {
         if (str.length() == 0) {
             System.out.println(chosen);
